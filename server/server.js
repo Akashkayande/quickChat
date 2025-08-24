@@ -44,8 +44,8 @@ app.use("/api/messages",messageRouter)
 
 await connectDB();
 
-// const PORT = process.env.PORT || 4000;
+
 const PORT = 9000;
 server.listen(PORT,()=>{
-    console.log(`server is running on : ${PORT}`);
+    console.log(`server is running on : ${PORT}`)
 })
